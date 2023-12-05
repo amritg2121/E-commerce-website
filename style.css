@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+:root {
+    --main-bg-color: rgb(249, 241, 3);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: var(--main-bg-color);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+  nav{
+     display: flex;
+  }
+
+.log{
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+
+}
+.log img{
+    width: 125px;
+
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 23px;
+    
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+ nav ul li a{
+    text-decoration: none;
+ }
+ .container{
+    min-height: calc(100vh - 58px - 12vh);
+ }
+
+ .search{
+    display: flex;
+    align-items: center;
+ }
+ .search button{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+ }
+ .search input{
+    width: 30vw;
+    height: 20px;
+    margin: 0 12px 0 56px;
+    border-radius: 3px;
+    padding: 0 12px;
+ }
+ .slider img{
+    width: 85%;
+    margin: 10px 117px;
+ }
+ .slider{
+   overflow: hidden;
+ }
+
+ .card{
+    margin: 0 100px;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ .cards{
+   display: flex;
+   
+ }
+.card-item{
+   display: inline-flex;
+   flex-direction: column;
+   margin: 0 20px;
+   
+}
+
+ .card img{
+    max-width: 140px;
+ }
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: rgb(6, 10, 246);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
